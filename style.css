@@ -1,0 +1,26 @@
+* {
+    background-color: black;
+    color: aliceblue;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gif-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.my-gif {
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    padding-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
